@@ -1,0 +1,88 @@
+.film-detail {
+    .overlayDetail {
+        background-color: rgba(0, 0, 0, 0.532);
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+/* Chỉnh kích thước và định dạng cho phần Lịch chiếu */
+.sec-shtime {
+  padding: 50px 0; /* Khoảng cách giữa phần Lịch chiếu và các phần khác */
+}
+
+.shtime-heading .heading {
+  font-size: 36px; /* Kích thước lớn hơn */
+  color: #fff; /* Màu trắng */
+  text-align: center; /* Căn giữa */
+  font-weight: bold; /* In đậm */
+  margin-top: 50px; /* Khoảng cách một khoảng từ phía trên */
+
+}
+
+.box-time {
+  display: flex; /* Sử dụng flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  width: 100px; /* Độ rộng của hình vuông */
+  height: 80px; /* Chiều cao của hình vuông */
+  border: 2px solid #ffc107; /* Viền màu vàng */
+  border-radius: 5px; /* Độ cong của viền hình vuông */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+  margin-top: 50px;
+}
+.box-time:hover {
+  background-color: #ffc107;
+  color: #c512b9;
+   /* Màu nền vàng khi hover */
+}
+
+.box-time p {
+  margin: 0; /* Loại bỏ margin để căn chỉnh nội dung bên trong */
+  text-align: center; /* Căn giữa nội dung theo chiều ngang */
+  font-size: 16px; /* Kích thước chữ */
+  color: #fff; /* Màu chữ */
+}
+.shtime-body .heading{
+    font-size: 36px; /* Kích thước lớn hơn */
+  color: #fff; /* Màu trắng */
+ 
+  font-weight: bold; /* In đậm */
+  margin-top: 25px;
+}
+///
+.cinestar-heading h4,
+.cinestar-heading .fa-angle-down {
+  display: inline-block;
+  vertical-align: middle; /* Căn giữa theo chiều dọc */
+  
+}
+
+/* Khoảng cách giữa h4 và icon */
+.cinestar-heading .fa-angle-down {
+  margin-left: 100px; /* Điều chỉnh khoảng cách tùy theo nhu cầu */
+}
+/* Kích thước của tiêu đề */
+.cinestar-heading h4 {
+  font-size: 18px; /* Điều chỉnh kích thước font tùy theo nhu cầu */
+  color: #fff;
+}
+
+/* Kích thước của icon */
+.cinestar-heading .fa-angle-down {
+  font-size: 18px; /* Điều chỉnh kích thước icon tùy theo nhu cầu */
+  color: #fff;
+}
+/* Khung bao quanh */
+.cinestar-heading {
+  border: 1px solid #ccc; /* Định dạng cho khung */
+  padding: 10px; /* Khoảng cách giữa nội dung và khung */
+  width: 500px;
+  margin-top: 25px;
+}
+
+

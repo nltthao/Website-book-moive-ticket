@@ -1,0 +1,135 @@
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.seat-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.seat-numbers {
+    display: flex;
+}
+
+.seat {
+    width: 40px; /* Tùy chỉnh kích thước cho phù hợp */
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.seat:hover {
+    background-color: #e0e0e0; /* Màu khi di chuột vào */
+}
+.seat.normal {
+    background-color: #02BB08; /* Màu cho ghế loại Thường */
+}
+
+.seat.vip {
+    background-color: #f3d304f8; /* Màu cho ghế loại VIP */
+}
+
+.seat.selecting {
+    background-color: #fd8424;
+     /* Màu cho các ghế đã đặt */
+}
+
+.seat.booked {
+    background-color: #7b7a7a; /* Màu cho các ghế đang đặt */
+}
+.seat.available{
+    background-color: #02BB08; /* Màu cho ghế loại Thường */
+}
+.row-title {
+    margin-right: 50px; /* Khoảng cách giữa "Seat Row" và "Seat Number" */
+
+}
+.chart-container {
+    display: flex; /* Sử dụng flexbox để căn giữa theo trục ngang */
+    justify-content: center; /* Căn giữa các phần tử con theo trục ngang */
+    margin-top: 10px; /* Khoảng cách phía trên */
+    margin-left: 80px;
+  }
+  
+  .chart-wrapper {
+    margin-right: 50px; /* Khoảng cách giữa các biểu đồ */
+    width: 600px; /* Chiều rộng của container */
+  height: 400px; /* Chiều cao của container */
+  border: 1px solid #ccc; /* Viền 1px với màu xám nhạt */
+  background-color: #f9f9f9; /* Màu nền xám nhạt */
+  border-radius: 5px; /* Bo góc của container */
+  padding: 30px; /* Khoảng cách giữa biểu đồ và viền */
+  }
+  .thongke{
+    display: flex; /* Sử dụng flexbox để căn giữa theo trục ngang */
+    justify-content: center; /* Căn giữa các phần tử con theo trục ngang */
+    margin-top: 50px; /* Khoảng cách phía trên */
+    margin-left: 100px;
+  
+  }
+  .thongke button:hover {
+    border-color: #1890ff; /* Màu viền xanh khi hover */
+    color: #1890ff; /* Màu chữ xanh khi hover */
+  }
+  .thongke button {
+    padding: 0.5rem 1rem; /* Khoảng cách giữa nút và văn bản */
+    background-color: transparent; /* Màu nền trong suốt */
+    border: 2px solid black; /* Viền đen */
+    color: black; /* Màu chữ */
+    border-radius: 0.25rem; /* Bo góc */
+    font-weight: 600; /* Độ đậm của font */
+    cursor: pointer; /* Con trỏ chuột khi hover vào */
+    transition: border-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu và viền */
+  }
+ /* Trong file CSS hoặc SCSS của bạn */
+/* Trong file CSS hoặc SCSS của bạn */
+.tabs-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    margin-top: 8px; /* Lề trên cho phù hợp */
+  }
+  
+  .custom-tabs-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 80%; /* Độ rộng phù hợp */
+  }
+  
+  .custom-tabs {
+    /* Thêm các style tùy chọn cho Tabs của bạn */
+  }
+  
+  /* Để các phần tử trong Tabs xuống dòng */
+  .custom-tabs .ant-tabs-nav {
+    flex-wrap: wrap;
+  }
+  
+  .custom-tabs .ant-tabs-nav .ant-tabs-tab {
+    width: 100%; /* Độ rộng 100% cho mỗi tab */
+    text-align: center; /* Căn giữa nội dung của mỗi tab */
+  }
+  .custom-movie-item {
+    margin-bottom: 20px; /* Khoảng cách giữa các phần tử */
+    padding-bottom: 10px; /* Khoảng cách dưới của mỗi phần tử */
+    border-bottom: 1px solid #ccc; /* Đường viền phân cách giữa các phần tử */
+}
+
+.custom-movie-item:last-child {
+    border-bottom: none; /* Loại bỏ đường viền phân cách cho phần tử cuối cùng */
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.max-h-112 {
+  max-height: 28rem; /* Hoặc giá trị chiều cao tối đa mà bạn muốn */
+}
